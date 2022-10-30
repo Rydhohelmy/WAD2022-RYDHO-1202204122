@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    transition: .25s;
+    color: #b0d98bb7 !important;
+    background-color: rgb(129, 95, 95);
+}
+
+.nav-link:hover {
+    transform: translateY(-10%);
+    background-color: #b0884b;
+    color: rgb(218, 82, 98) !important;
+    border-radius: 4px;
+}
+
+.mobil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.container {
+    margin: 100px 20px 40px 20px;
+}
+
+.list-group-item {
+    text-align: center;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #653684da;
+    border: none;
+}
+
+.foot {
+    text-align: center;
+}
