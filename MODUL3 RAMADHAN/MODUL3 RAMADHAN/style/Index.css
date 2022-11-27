@@ -1,0 +1,55 @@
+/* .container-header p{
+    padding-top:6px;
+    color:gray;
+}
+
+.container-home {
+    padding-top:10px;
+}
+
+.home p{
+    font-weight:bold;
+} */
+.body {
+    height: 100vh;
+
+}
+.nav-top {
+    font-family: Raleway;
+    color:white;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.content {
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    font-family: Raleway;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .main-text {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.content .sub-text {
+    font-size: 16px;
+    color: #757575;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+}
+
+.nama {
+    margin-top: 48px;
+    margin-left: 24px;
+}
+

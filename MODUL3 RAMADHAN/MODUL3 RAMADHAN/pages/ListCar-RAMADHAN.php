@@ -1,5 +1,5 @@
 <?php
-    require 'config/connector.php';
+    require '../config/connector.php';
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +21,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 100px;">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="Home_RYDHO.php">Home</a>
+                            <a class="nav-link" href="Home-RAMADHAN.php">Home</a>
                         </li>
                         <li class="nav-item mx-4">
                             <a class="nav-link" href="">MyCar</a>
@@ -33,29 +33,30 @@
         <section class="content">
             <p class="main-text">Tambah Mobil</p>
             <p class="sub-text">Tambah Mobil Baru Anda Ke List Show Room</p>
-            <div class="container">MODUL3_RYDHO
+            <div class="container">
                 <div class="row">
                     <?php
-                        $query = mysqli_query($connect, "SELECT * FROM showroom_rydho_table ORDER BY id_mobil");
+                        $query = mysqli_query($connect, "SELECT * FROM showroom_ramadhan_table ORDER BY id_mobil");
                         while($row = mysqli_fetch_array($query)) {
                                 
                     ?>
                     <div class="col-4">
                         <div class="card">
-                        <img class="card-img-top" src="assets/img/<?php echo $row['foto_mobil']?>" width="300" title="" alt="Card image cap">
+                        <img class="card-img-top" src="../asset/image/<?php echo $row['foto_mobil']?>" width="300" title="" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title"><?= $row['nama_mobil'] ?></h5>
                                 <p class="card-text"><?= $row['deskripsi'] ?></p>
                             </div>
                             <div class="container-fluid row">
-                                <form action="Detail_RYDHO.php" method="post" class="col">
+                                <form action="Detail-RAMADHAN.php" method="post" class="col">
                                     <input type="hidden" name="id_mobil_detail" value="<?php echo $row['id_mobil']?>">
                                     <input type="submit" name="detail_car" value="Detail" class="btn btn-primary rounded-pill">
                                 </form>
-                                <form action="Config/delete.php" method="post" class="col">
+                                <form action="../config/delete.php" method="post" class="col">
                                     <input type="hidden" name="id_mobil_hapus" value="<?php echo $row['id_mobil']?>">
                                     <input type="submit" name="delete_car" value="Delete" class="btn btn-danger rounded-pill">
                                 </form>
+                                <!-- <a href="Detail-RAMADHAN.php?id_mobil='.$row['id_mobil'].'" class="btn btn-primary"></a> -->
                             </div>
                         </div>
                     </div>

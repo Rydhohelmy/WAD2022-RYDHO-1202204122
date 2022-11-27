@@ -1,0 +1,43 @@
+
+
+.body {
+    height: 100vh;
+
+}
+.nav-top {
+    font-family: Raleway;
+    color:white;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.content {
+    padding-left: 100px;
+    padding-top: 24px;
+    padding-right: 100px;
+    font-family: Raleway;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .main-text {
+    font-size: 28px;
+    font-weight: 1000;
+}
+
+.content .sub-text {
+    font-size: 14px;
+    color: #757575;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    font-weight:bold;
+}
