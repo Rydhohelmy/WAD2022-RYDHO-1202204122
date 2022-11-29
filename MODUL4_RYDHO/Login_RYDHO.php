@@ -30,7 +30,7 @@
             <div class="left">
             </div>
             <div class="right">
-                <form action="../config/postLogin.php" method="POST" enctype="multipart/form-data">
+                <form action="Config/postingLogin.php" method="POST" enctype="multipart/form-data">
                     <div class="row justify-content-between">
                         <h2 style="margin-bottom: 24px;">Login</h2>
                         <div class="mb-3">

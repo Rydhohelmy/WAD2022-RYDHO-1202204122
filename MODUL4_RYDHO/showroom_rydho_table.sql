@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:4306
--- Generation Time: Nov 26, 2022 at 10:40 AM
+-- Generation Time: Nov 29, 2022 at 01:55 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `modul3`
+-- Database: `wad_modul4_rydho`
 --
 
 -- --------------------------------------------------------
