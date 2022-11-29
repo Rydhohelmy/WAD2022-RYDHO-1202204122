@@ -1,0 +1,33 @@
+.body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.left {
+    background-image: url("../img/MOBILREGISTRASI.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.right {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.left,
+.right {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
