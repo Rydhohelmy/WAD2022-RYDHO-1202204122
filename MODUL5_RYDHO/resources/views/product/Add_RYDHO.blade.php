@@ -23,22 +23,22 @@
       @csrf
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Nama Mobil</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nama mobil" name="nama_mobil">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nama mobil" name="mobil">
         </div>
 
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Nama Pemilik</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nama - NIM" name="pemilik_mobil">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nama - NIM" name="nama">
         </div>
 
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Merk</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="merk mobil" name="merk_mobil">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="merk mobil" name="merk">
         </div>
 
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Tanggal Beli</label>
-            <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="tanggal beli" name="tanggal_beli">
+            <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="tanggal beli" name="date">
         </div>
 
         <div class="mb-3">
@@ -47,8 +47,8 @@
         </div>
 
         <div class="mb-3">
-            <label for="formFile" class="form-label">Foto</label>
-            <input class="form-control" type="file" id="formFile" name="foto_mobil">
+            <label for="formFileDisabled" class="form-label" for="cutomFile">Foto</label>
+            <input class="form-control" type="file" id="img_path" name="img_path">  
         </div>
         <div class="form-check">
         <input class="form-check-input" type="radio" name="status_pembayaran" id="flexRadioDefault1" value="Lunas">

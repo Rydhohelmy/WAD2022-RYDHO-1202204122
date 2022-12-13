@@ -10,8 +10,8 @@
     <nav class="navbar navbar-expand-lg bg-primary">
       <div class="d-flex justify-content-left container-fluid">
         <ul class="navbar-nav" style="padding-left:100px;color:white">
-          <li class="nav-item"><a class= "nav-link" href="Home_RYDHO.php">Home</a>
-          <li class="nav-item"><a class= "nav-link" href="Listcar_RYDHO.php">MyCar</a>
+          <li class="nav-item"><a class= "nav-link" href="/Home">Home</a>
+          <li class="nav-item"><a class= "nav-link" href="/Listcar">MyCar</a>
         </ul>
         <ul class="navbar-nav ms-auto" style="margin-right: 100px;">
            <li class="nav-item mx-5">
