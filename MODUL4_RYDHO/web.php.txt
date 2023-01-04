@@ -1,0 +1,65 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\RegisterController;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+Route::get('/', function () {
+    return view('product.Home-RAMADANI');
+});
+
+
+Route::get('/login', function() {
+    return view('product.Login-RAMADANI');
+});
+
+Route::get('/Register-page', function() {
+    return view('product.Register-RAMADANI');
+});
+
+Route::get('/Home-page', function() {
+    return view('product.Home-RAMADANI');
+});
+
+Route::get('/Home', function() {
+    return view('product.Home-RAMADANI');
+});
+
+Route::get('/Listcar', function() {
+    return view('product.ListCar-RAMADANI');
+});
+
+Route::get('/Addcar', function() {
+    return view('product.Add-RAMADANI);
+}); 
+
+Route::get('/Detailcar', function() {
+    return view('product.Detail-RAMADANI');
+}); 
+
+Route::get('/Update', function() {
+    return view('product.Edit-RAMADANI');
+}); 
+
+Route::get('/product/{id}/edit', function() {
+    return view('product.Edit-RAMADANI');
+}); 
+
+Route::resource('product', ProductController::class);
+Route::resource('/Listcar', ProductController::class);
+Route::resource('/product/{id}', ProductController::class);
+Route::resource('/product/{id}/edit', ProductController::class);
+Route::resource('/Update', ProductController::class);
+Route::resource('/Detailcar', ProductController::class);
